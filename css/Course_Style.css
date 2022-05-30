@@ -1,0 +1,190 @@
+body
+{
+    background-image:linear-gradient(to right, #2BC0E4,#EAECC6);    
+}
+#navbar .nav-item .nav-link:hover
+{
+    background: black;
+    font-weight: bold;
+    color: white;
+    /* border:5px solid white; */
+    border-radius: 75px;
+}
+
+#navbar .nav-item .nav-link
+{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#navbar .navbar-brand
+{
+    font-weight: bold;
+}
+
+
+#navbar .navbar-nav li a
+{
+    margin-bottom: 5px;
+    color:black;
+}
+
+
+#navbar .nav-item
+{
+    padding:10px;
+}
+
+#navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image:linear-gradient(to right, #2BC0E4,#EAECC6);   
+}
+
+#MNS .card img,
+#EEE .card img,
+#CSE .card img
+{
+    height: 200px;
+    width: 287px;
+}
+
+#MNS .card-body .button .btn,
+#EEE .card-body .button .btn,
+#CSE .card-body .button .btn
+{ 
+    background: #c2d6d6;
+    border: none;
+    border-radius: 50px;
+    
+}
+
+#MNS .card-body .button .btn:hover,
+#EEE .card-body .button .btn:hover,
+#CSE .card-body .button .btn:hover
+{ 
+    background: #595959;    
+}
+
+#MNS .card-body .button .btn a:hover,
+#EEE .card-body .button .btn a:hover,
+#CSE .card-body .button .btn a:hover
+{
+    color: white;
+    padding:30px;
+    transition: 0.2s;
+}
+
+#MNS .card-body .button .btn a,
+#EEE .card-body .button .btn a,
+#CSE .card-body .button .btn a
+{
+    font-family: fantasy;
+    font-weight: 700;
+    padding:0px 20px;
+}
+
+#MNS .card, 
+#EEE .card,
+#CSE .card
+{
+    background: #e0ebeb;
+}
+
+#MNS .card:hover, 
+#EEE .card:hover,
+#CSE .card:hover
+{
+    box-shadow: 5px 10px #a3c2c2;
+}
+
+#MNS .card a,
+#EEE .card a,
+#CSE .card a
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#MNS .card,
+#EEE .card,
+#CSE .card
+{
+    margin: auto;
+}
+
+
+#MNS .lead, 
+#EEE .lead,
+#CSE .lead
+{
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+#MNS .card-title p,
+#EEE .card-title p,
+#CSE .card-title p
+{
+    font-size: 15px;
+}
+
+
+#CSE .card ul .deactive
+{
+    color: #b3cccc !important;
+}
+
+/* Media Query */
+@media screen and (max-width:989px) 
+{
+#MNS .card,
+#EEE .card,
+#CSE .card
+    {
+      width: 225px !important;
+      /* margin: 100px; */
+      
+    }
+
+#MNS .card img,
+#EEE .card img,
+#CSE .card img
+    {
+      width: 225px !important;
+      /* margin: 100px; */
+      
+    }
+}
+
+
+@media screen and (max-width:989px) 
+{
+#MNS .card,
+#EEE .card,
+#CSE .card
+    {
+    /* height: 370px !important; */
+    width: 200px !important;
+      
+    }
+
+#MNS .card img,
+#EEE .card img,
+#CSE .card img
+    {
+      width: 198px !important;
+      /* margin: 100px; */
+      
+    }
+}
+/* Media Query */

@@ -1,0 +1,140 @@
+#navbar .nav-item .nav-link:hover
+{
+    background: black;
+    font-weight: bold;
+    color: white;
+    border-radius: 75px;
+}
+
+#navbar .navbar-nav li a
+{
+    margin-bottom: 5px;
+    color: black;
+}
+#navbar .nav-item .nav-link
+{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#navbar .navbar-brand
+{
+    font-weight: bold;
+}
+
+#navbar .nav-item
+{
+    padding:10px;
+}
+
+#navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    
+    background-image: linear-gradient(to right, #33ccff, #ffff99);
+}
+
+#course
+{
+    background-image: linear-gradient(to right, #33ccff, #ffff99);
+}
+
+#course h3
+{  
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#course p
+{
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight:500;
+}
+
+#course .wave
+{
+    width:100%;
+}
+
+#collection h3
+{
+    font-weight: bold;
+    font-size: 50px;
+    color: greenyellow
+}
+
+#collection p
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#collection .content:hover
+{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+
+#allcourse .text
+{
+    color: #1a8cff;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+
+#allcourse
+{
+    margin: auto;
+    background: #cce6ff;
+}
+
+
+#tips
+{
+    background:#e6ffff;
+    padding: auto;
+}
+
+#tips .title
+{
+    font-weight: bold;
+    font-size: 30px;   
+}
+#tips .tips p
+{   
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left:20px;
+}
+
+#tips .tips p .iconify
+{   
+    font-size: 20px;
+    padding-right:px;
+}
+
+
+
+@media screen and (max-width: 991px)
+{   #course .image-fluid
+    {
+        margin-top: 120px;
+        
+    }
+    #allcourse .row .img
+    {
+        padding-top: 50px;
+        width: 350px;
+        height:350px;
+        
+    }
+
+} 
