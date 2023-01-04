@@ -8,13 +8,12 @@
 
 #navbar .navbar-nav li a
 {
-    margin-bottom: 5px;
     color: black;
 }
 #navbar .nav-item .nav-link
 {
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 #navbar .navbar-brand
@@ -22,10 +21,7 @@
     font-weight: bold;
 }
 
-#navbar .nav-item
-{
-    padding:10px;
-}
+
 
 #navbar
 {
@@ -35,13 +31,19 @@
 }
 .navbar
 {
-    
     background-image: linear-gradient(to right, #33ccff, #ffff99);
 }
 
 #course
 {
     background-image: linear-gradient(to right, #33ccff, #ffff99);
+}
+
+#navbar .navbar-nav li a h6
+{
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
 }
 
 #course h3
@@ -121,6 +123,62 @@
     padding-right:px;
 }
 
+/* ABOUT */
+#about
+{
+    background-image: linear-gradient(to right, #33ccff, #ffff99);
+}
+#about .img-text
+{
+    display: flex;
+    align-items: center;
+}
+
+#about .img-text .img-fluid
+{
+    border-radius: 5px;
+}
+#about .img-text .text
+{
+    margin-left: 20px;
+}
+
+#about .wave
+{
+    width: 100%;
+}
+
+#about .icon
+{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#about .icon
+{
+    margin-left: auto;
+}
+#about .icon a img
+{
+  height: 50px;
+  width: 50px;
+}
+
+#about .icon a img:hover
+{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+#about .pro
+{
+    align-items: center;
+}
+#about  .b
+{
+  border-left: 5px solid purple;
+  margin-bottom: 5px;
+} 
 
 
 @media screen and (max-width: 991px)
